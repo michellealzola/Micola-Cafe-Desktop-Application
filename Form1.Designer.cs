@@ -447,6 +447,7 @@
             this.btnPayNow.TabIndex = 9;
             this.btnPayNow.Text = "Pay Now";
             this.btnPayNow.UseVisualStyleBackColor = true;
+            this.btnPayNow.Click += new System.EventHandler(this.btnPayNow_Click);
             // 
             // btnReset
             // 

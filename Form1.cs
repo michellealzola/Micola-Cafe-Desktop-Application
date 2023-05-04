@@ -128,5 +128,12 @@ namespace Micola_Cafe_Desktop_Application
         {
             this.Close();
         }
+
+        private void btnPayNow_Click(object sender, EventArgs e)
+        {
+            frmPayNow frmPayNow = new frmPayNow();
+
+            frmPayNow.Show();
+        }
     }
 }
