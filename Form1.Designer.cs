@@ -32,51 +32,51 @@
             this.lblOutBlack = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.picBoxBlack = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lblOutCappuccino = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.picBoxCappuccino = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblOutColumbian = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.picBoxColumbian = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.lblOutEspresso = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.picBoxEspresso = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.lblOutHazelNut = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.picBoxHazelNut = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.lblOutLatte = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.picBoxLatte = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.lblOutTotal = new System.Windows.Forms.Label();
             this.btnPayNow = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.picBoxLatte = new System.Windows.Forms.PictureBox();
+            this.picBoxHazelNut = new System.Windows.Forms.PictureBox();
+            this.picBoxEspresso = new System.Windows.Forms.PictureBox();
+            this.picBoxColumbian = new System.Windows.Forms.PictureBox();
+            this.picBoxCappuccino = new System.Windows.Forms.PictureBox();
+            this.picBoxBlack = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxBlack)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxCappuccino)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxColumbian)).BeginInit();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxEspresso)).BeginInit();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxHazelNut)).BeginInit();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLatte)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxHazelNut)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxEspresso)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxColumbian)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCappuccino)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxBlack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,17 +122,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "$1.00";
             // 
-            // picBoxBlack
-            // 
-            this.picBoxBlack.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Black;
-            this.picBoxBlack.Location = new System.Drawing.Point(3, 16);
-            this.picBoxBlack.Name = "picBoxBlack";
-            this.picBoxBlack.Size = new System.Drawing.Size(137, 131);
-            this.picBoxBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxBlack.TabIndex = 0;
-            this.picBoxBlack.TabStop = false;
-            this.picBoxBlack.Click += new System.EventHandler(this.picBoxBlack_Click);
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lblOutCappuccino);
@@ -174,17 +163,6 @@
             this.label6.Size = new System.Drawing.Size(57, 29);
             this.label6.TabIndex = 1;
             this.label6.Text = "$1.20";
-            // 
-            // picBoxCappuccino
-            // 
-            this.picBoxCappuccino.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Cappuccino;
-            this.picBoxCappuccino.Location = new System.Drawing.Point(3, 16);
-            this.picBoxCappuccino.Name = "picBoxCappuccino";
-            this.picBoxCappuccino.Size = new System.Drawing.Size(137, 131);
-            this.picBoxCappuccino.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxCappuccino.TabIndex = 0;
-            this.picBoxCappuccino.TabStop = false;
-            this.picBoxCappuccino.Click += new System.EventHandler(this.picBoxCappuccino_Click);
             // 
             // groupBox3
             // 
@@ -228,17 +206,6 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "$1.15";
             // 
-            // picBoxColumbian
-            // 
-            this.picBoxColumbian.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Columbian;
-            this.picBoxColumbian.Location = new System.Drawing.Point(3, 16);
-            this.picBoxColumbian.Name = "picBoxColumbian";
-            this.picBoxColumbian.Size = new System.Drawing.Size(137, 131);
-            this.picBoxColumbian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxColumbian.TabIndex = 0;
-            this.picBoxColumbian.TabStop = false;
-            this.picBoxColumbian.Click += new System.EventHandler(this.picBoxColumbian_Click);
-            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.lblOutEspresso);
@@ -280,17 +247,6 @@
             this.label12.Size = new System.Drawing.Size(55, 29);
             this.label12.TabIndex = 1;
             this.label12.Text = "$1.10";
-            // 
-            // picBoxEspresso
-            // 
-            this.picBoxEspresso.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Espresso;
-            this.picBoxEspresso.Location = new System.Drawing.Point(3, 16);
-            this.picBoxEspresso.Name = "picBoxEspresso";
-            this.picBoxEspresso.Size = new System.Drawing.Size(137, 131);
-            this.picBoxEspresso.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxEspresso.TabIndex = 0;
-            this.picBoxEspresso.TabStop = false;
-            this.picBoxEspresso.Click += new System.EventHandler(this.picBoxEspresso_Click);
             // 
             // groupBox5
             // 
@@ -334,17 +290,6 @@
             this.label15.TabIndex = 1;
             this.label15.Text = "$1.25";
             // 
-            // picBoxHazelNut
-            // 
-            this.picBoxHazelNut.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Hazel_Nut;
-            this.picBoxHazelNut.Location = new System.Drawing.Point(3, 16);
-            this.picBoxHazelNut.Name = "picBoxHazelNut";
-            this.picBoxHazelNut.Size = new System.Drawing.Size(137, 131);
-            this.picBoxHazelNut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxHazelNut.TabIndex = 0;
-            this.picBoxHazelNut.TabStop = false;
-            this.picBoxHazelNut.Click += new System.EventHandler(this.picBoxHazelNut_Click);
-            // 
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.lblOutLatte);
@@ -386,27 +331,6 @@
             this.label18.Size = new System.Drawing.Size(57, 29);
             this.label18.TabIndex = 1;
             this.label18.Text = "$1.20";
-            // 
-            // picBoxLatte
-            // 
-            this.picBoxLatte.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Latte;
-            this.picBoxLatte.Location = new System.Drawing.Point(3, 16);
-            this.picBoxLatte.Name = "picBoxLatte";
-            this.picBoxLatte.Size = new System.Drawing.Size(137, 131);
-            this.picBoxLatte.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxLatte.TabIndex = 0;
-            this.picBoxLatte.TabStop = false;
-            this.picBoxLatte.Click += new System.EventHandler(this.picBoxLatte_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.banner;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(885, 114);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label19
             // 
@@ -471,6 +395,82 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // picBoxLatte
+            // 
+            this.picBoxLatte.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Latte;
+            this.picBoxLatte.Location = new System.Drawing.Point(3, 16);
+            this.picBoxLatte.Name = "picBoxLatte";
+            this.picBoxLatte.Size = new System.Drawing.Size(137, 131);
+            this.picBoxLatte.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxLatte.TabIndex = 0;
+            this.picBoxLatte.TabStop = false;
+            this.picBoxLatte.Click += new System.EventHandler(this.picBoxLatte_Click);
+            // 
+            // picBoxHazelNut
+            // 
+            this.picBoxHazelNut.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Hazel_Nut;
+            this.picBoxHazelNut.Location = new System.Drawing.Point(3, 16);
+            this.picBoxHazelNut.Name = "picBoxHazelNut";
+            this.picBoxHazelNut.Size = new System.Drawing.Size(137, 131);
+            this.picBoxHazelNut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxHazelNut.TabIndex = 0;
+            this.picBoxHazelNut.TabStop = false;
+            this.picBoxHazelNut.Click += new System.EventHandler(this.picBoxHazelNut_Click);
+            // 
+            // picBoxEspresso
+            // 
+            this.picBoxEspresso.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Espresso;
+            this.picBoxEspresso.Location = new System.Drawing.Point(3, 16);
+            this.picBoxEspresso.Name = "picBoxEspresso";
+            this.picBoxEspresso.Size = new System.Drawing.Size(137, 131);
+            this.picBoxEspresso.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxEspresso.TabIndex = 0;
+            this.picBoxEspresso.TabStop = false;
+            this.picBoxEspresso.Click += new System.EventHandler(this.picBoxEspresso_Click);
+            // 
+            // picBoxColumbian
+            // 
+            this.picBoxColumbian.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Columbian;
+            this.picBoxColumbian.Location = new System.Drawing.Point(3, 16);
+            this.picBoxColumbian.Name = "picBoxColumbian";
+            this.picBoxColumbian.Size = new System.Drawing.Size(137, 131);
+            this.picBoxColumbian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxColumbian.TabIndex = 0;
+            this.picBoxColumbian.TabStop = false;
+            this.picBoxColumbian.Click += new System.EventHandler(this.picBoxColumbian_Click);
+            // 
+            // picBoxCappuccino
+            // 
+            this.picBoxCappuccino.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Cappuccino;
+            this.picBoxCappuccino.Location = new System.Drawing.Point(3, 16);
+            this.picBoxCappuccino.Name = "picBoxCappuccino";
+            this.picBoxCappuccino.Size = new System.Drawing.Size(137, 131);
+            this.picBoxCappuccino.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxCappuccino.TabIndex = 0;
+            this.picBoxCappuccino.TabStop = false;
+            this.picBoxCappuccino.Click += new System.EventHandler(this.picBoxCappuccino_Click);
+            // 
+            // picBoxBlack
+            // 
+            this.picBoxBlack.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Black;
+            this.picBoxBlack.Location = new System.Drawing.Point(3, 16);
+            this.picBoxBlack.Name = "picBoxBlack";
+            this.picBoxBlack.Size = new System.Drawing.Size(137, 131);
+            this.picBoxBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxBlack.TabIndex = 0;
+            this.picBoxBlack.TabStop = false;
+            this.picBoxBlack.Click += new System.EventHandler(this.picBoxBlack_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.banner;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(885, 114);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmMicolaCafe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -494,22 +494,22 @@
             this.Load += new System.EventHandler(this.frmMicolaCafe_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxBlack)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxCappuccino)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxColumbian)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxEspresso)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxHazelNut)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLatte)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxHazelNut)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxEspresso)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxColumbian)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCappuccino)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxBlack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

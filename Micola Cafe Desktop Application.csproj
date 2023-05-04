@@ -76,6 +76,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Properties\DataSources\Coffee.datasource" />
+    <None Include="Properties\DataSources\frmMicolaCafe.datasource" />
+    <None Include="Properties\DataSources\frmPayNow.datasource" />
+    <None Include="Properties\DataSources\Micola_Cafe_Desktop_Application.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\Micola_Cafe_Desktop_Application.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

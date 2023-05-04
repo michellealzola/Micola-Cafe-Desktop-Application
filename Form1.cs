@@ -10,12 +10,7 @@ using System.Windows.Forms;
 
 namespace Micola_Cafe_Desktop_Application
 {
-    struct Coffee
-    {
-        public string coffeeName;
-        public double coffeeCost;
-        public int coffeeQty;
-    }
+    
     public partial class frmMicolaCafe : Form
     {
         private int blackQty;
@@ -25,7 +20,16 @@ namespace Micola_Cafe_Desktop_Application
         private int hazelNutQty;
         private int latteQty;
 
+        private int blackCount;
+        private int cappuccinoCount;
+        private int columbianCount;
+        private int espressoCount;
+        private int hazelNutCount;
+        private int latteCount;
+
         private double totalSales;
+
+        public Dictionary<string, string> coffeeOrders = new Dictionary<string, string>(); 
 
         public frmMicolaCafe()
         {
@@ -49,6 +53,8 @@ namespace Micola_Cafe_Desktop_Application
             lblOutLatte.Text = latteQty.ToString();
 
             lblOutTotal.Text = "";
+
+            coffeeOrders.Clear();
         }
 
         private void picBoxBlack_Click(object sender, EventArgs e)
@@ -56,8 +62,12 @@ namespace Micola_Cafe_Desktop_Application
             blackQty--;
             totalSales += 1.0;
 
+            blackCount++;
+
             lblOutBlack.Text = blackQty.ToString();
             lblOutTotal.Text = totalSales.ToString("c");
+
+            coffeeOrders["Black"] = blackCount.ToString();
         }
 
         private void picBoxCappuccino_Click(object sender, EventArgs e)
@@ -65,8 +75,12 @@ namespace Micola_Cafe_Desktop_Application
             cappuccinoQty--;
             totalSales += 1.2;
 
+            cappuccinoCount++;
+
             lblOutCappuccino.Text = cappuccinoQty.ToString();
             lblOutTotal.Text = totalSales.ToString("c");
+
+            coffeeOrders["Cappuccino"] = cappuccinoCount.ToString();
         }
 
         private void picBoxColumbian_Click(object sender, EventArgs e)
@@ -74,8 +88,12 @@ namespace Micola_Cafe_Desktop_Application
             columbianQty--;
             totalSales += 1.15;
 
+            columbianCount++;
+
             lblOutColumbian.Text = columbianQty.ToString();
             lblOutTotal.Text = totalSales.ToString("c");
+
+            coffeeOrders["Columbian"] = columbianCount.ToString();
         }
 
         private void picBoxEspresso_Click(object sender, EventArgs e)
@@ -83,8 +101,12 @@ namespace Micola_Cafe_Desktop_Application
             espressoQty--;
             totalSales += 1.1;
 
+            espressoCount++;
+
             lblOutEspresso.Text = espressoQty.ToString();
             lblOutTotal.Text = totalSales.ToString("c");
+
+            coffeeOrders["Espresso"] = espressoCount.ToString();
         }
 
         private void picBoxHazelNut_Click(object sender, EventArgs e)
@@ -92,8 +114,12 @@ namespace Micola_Cafe_Desktop_Application
             hazelNutQty--;
             totalSales += 1.25;
 
+            hazelNutCount++;
+
             lblOutHazelNut.Text = hazelNutQty.ToString();
             lblOutTotal.Text = totalSales.ToString("c");
+
+            coffeeOrders["Hazel Nut"] = hazelNutCount.ToString();
         }
 
         private void picBoxLatte_Click(object sender, EventArgs e)
@@ -101,8 +127,12 @@ namespace Micola_Cafe_Desktop_Application
             latteQty--;
             totalSales += 1.2;
 
+            latteCount++;
+
             lblOutLatte.Text = latteQty.ToString();
             lblOutTotal.Text = totalSales.ToString("c");
+
+            coffeeOrders["Latte"] = latteCount.ToString();
         }
 
         private void btnReset_Click(object sender, EventArgs e)
@@ -122,6 +152,8 @@ namespace Micola_Cafe_Desktop_Application
             lblOutLatte.Text = latteQty.ToString();
 
             lblOutTotal.Text = "";
+
+            coffeeOrders.Clear();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -132,8 +164,9 @@ namespace Micola_Cafe_Desktop_Application
         private void btnPayNow_Click(object sender, EventArgs e)
         {
             frmPayNow frmPayNow = new frmPayNow();
+            frmPayNow.CoffeeOrders = coffeeOrders;
+            frmPayNow.Show();            
 
-            frmPayNow.Show();
         }
     }
 }
