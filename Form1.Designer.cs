@@ -29,79 +29,78 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblOutBlack = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.picBoxBlack = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblOutCappuccino = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.picBoxCappuccino = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblOutColumbian = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.picBoxColumbian = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblOutEspresso = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.picBoxEspresso = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblOutHazelNut = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.picBoxHazelNut = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblOutLatte = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.picBoxLatte = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.lblOutTotal = new System.Windows.Forms.Label();
+            this.btnPayNow = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxBlack)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCappuccino)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxColumbian)).BeginInit();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxEspresso)).BeginInit();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxHazelNut)).BeginInit();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxLatte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.lblOutBlack);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.pictureBox2);
+            this.groupBox1.Controls.Add(this.picBoxBlack);
             this.groupBox1.Location = new System.Drawing.Point(12, 169);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(292, 158);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
-            // label3
+            // lblOutBlack
             // 
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(167, 97);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 50);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOutBlack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblOutBlack.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutBlack.Location = new System.Drawing.Point(167, 97);
+            this.lblOutBlack.Name = "lblOutBlack";
+            this.lblOutBlack.Size = new System.Drawing.Size(107, 50);
+            this.lblOutBlack.TabIndex = 3;
+            this.lblOutBlack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -123,38 +122,37 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "$1.00";
             // 
-            // pictureBox2
+            // picBoxBlack
             // 
-            this.pictureBox2.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Black;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 16);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(137, 131);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.picBoxBlack.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Black;
+            this.picBoxBlack.Location = new System.Drawing.Point(3, 16);
+            this.picBoxBlack.Name = "picBoxBlack";
+            this.picBoxBlack.Size = new System.Drawing.Size(137, 131);
+            this.picBoxBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxBlack.TabIndex = 0;
+            this.picBoxBlack.TabStop = false;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.lblOutCappuccino);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.pictureBox3);
+            this.groupBox2.Controls.Add(this.picBoxCappuccino);
             this.groupBox2.Location = new System.Drawing.Point(310, 169);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(292, 158);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             // 
-            // label4
+            // lblOutCappuccino
             // 
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(167, 97);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 50);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOutCappuccino.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblOutCappuccino.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutCappuccino.Location = new System.Drawing.Point(167, 97);
+            this.lblOutCappuccino.Name = "lblOutCappuccino";
+            this.lblOutCappuccino.Size = new System.Drawing.Size(107, 50);
+            this.lblOutCappuccino.TabIndex = 3;
+            this.lblOutCappuccino.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -176,38 +174,37 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "$1.20";
             // 
-            // pictureBox3
+            // picBoxCappuccino
             // 
-            this.pictureBox3.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Cappuccino;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 16);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(137, 131);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.picBoxCappuccino.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Cappuccino;
+            this.picBoxCappuccino.Location = new System.Drawing.Point(3, 16);
+            this.picBoxCappuccino.Name = "picBoxCappuccino";
+            this.picBoxCappuccino.Size = new System.Drawing.Size(137, 131);
+            this.picBoxCappuccino.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxCappuccino.TabIndex = 0;
+            this.picBoxCappuccino.TabStop = false;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.lblOutColumbian);
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.pictureBox4);
+            this.groupBox3.Controls.Add(this.picBoxColumbian);
             this.groupBox3.Location = new System.Drawing.Point(608, 169);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(292, 158);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             // 
-            // label7
+            // lblOutColumbian
             // 
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(167, 97);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(107, 50);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "label7";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOutColumbian.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblOutColumbian.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutColumbian.Location = new System.Drawing.Point(167, 97);
+            this.lblOutColumbian.Name = "lblOutColumbian";
+            this.lblOutColumbian.Size = new System.Drawing.Size(107, 50);
+            this.lblOutColumbian.TabIndex = 3;
+            this.lblOutColumbian.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
@@ -229,38 +226,37 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "$1.15";
             // 
-            // pictureBox4
+            // picBoxColumbian
             // 
-            this.pictureBox4.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Columbian;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 16);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(137, 131);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.picBoxColumbian.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Columbian;
+            this.picBoxColumbian.Location = new System.Drawing.Point(3, 16);
+            this.picBoxColumbian.Name = "picBoxColumbian";
+            this.picBoxColumbian.Size = new System.Drawing.Size(137, 131);
+            this.picBoxColumbian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxColumbian.TabIndex = 0;
+            this.picBoxColumbian.TabStop = false;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.label10);
+            this.groupBox4.Controls.Add(this.lblOutEspresso);
             this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Controls.Add(this.label12);
-            this.groupBox4.Controls.Add(this.pictureBox5);
+            this.groupBox4.Controls.Add(this.picBoxEspresso);
             this.groupBox4.Location = new System.Drawing.Point(15, 333);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(292, 158);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             // 
-            // label10
+            // lblOutEspresso
             // 
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(167, 97);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 50);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "label10";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOutEspresso.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblOutEspresso.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutEspresso.Location = new System.Drawing.Point(167, 97);
+            this.lblOutEspresso.Name = "lblOutEspresso";
+            this.lblOutEspresso.Size = new System.Drawing.Size(107, 50);
+            this.lblOutEspresso.TabIndex = 3;
+            this.lblOutEspresso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
@@ -282,38 +278,37 @@
             this.label12.TabIndex = 1;
             this.label12.Text = "$1.10";
             // 
-            // pictureBox5
+            // picBoxEspresso
             // 
-            this.pictureBox5.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Espresso;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 16);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(137, 131);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
+            this.picBoxEspresso.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Espresso;
+            this.picBoxEspresso.Location = new System.Drawing.Point(3, 16);
+            this.picBoxEspresso.Name = "picBoxEspresso";
+            this.picBoxEspresso.Size = new System.Drawing.Size(137, 131);
+            this.picBoxEspresso.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxEspresso.TabIndex = 0;
+            this.picBoxEspresso.TabStop = false;
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.label13);
+            this.groupBox5.Controls.Add(this.lblOutHazelNut);
             this.groupBox5.Controls.Add(this.label14);
             this.groupBox5.Controls.Add(this.label15);
-            this.groupBox5.Controls.Add(this.pictureBox6);
+            this.groupBox5.Controls.Add(this.picBoxHazelNut);
             this.groupBox5.Location = new System.Drawing.Point(313, 333);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(292, 158);
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
             // 
-            // label13
+            // lblOutHazelNut
             // 
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label13.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(167, 97);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(107, 50);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "label13";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOutHazelNut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblOutHazelNut.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutHazelNut.Location = new System.Drawing.Point(167, 97);
+            this.lblOutHazelNut.Name = "lblOutHazelNut";
+            this.lblOutHazelNut.Size = new System.Drawing.Size(107, 50);
+            this.lblOutHazelNut.TabIndex = 3;
+            this.lblOutHazelNut.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label14
             // 
@@ -335,38 +330,37 @@
             this.label15.TabIndex = 1;
             this.label15.Text = "$1.25";
             // 
-            // pictureBox6
+            // picBoxHazelNut
             // 
-            this.pictureBox6.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Hazel_Nut;
-            this.pictureBox6.Location = new System.Drawing.Point(3, 16);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(137, 131);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
+            this.picBoxHazelNut.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Hazel_Nut;
+            this.picBoxHazelNut.Location = new System.Drawing.Point(3, 16);
+            this.picBoxHazelNut.Name = "picBoxHazelNut";
+            this.picBoxHazelNut.Size = new System.Drawing.Size(137, 131);
+            this.picBoxHazelNut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxHazelNut.TabIndex = 0;
+            this.picBoxHazelNut.TabStop = false;
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.label16);
+            this.groupBox6.Controls.Add(this.lblOutLatte);
             this.groupBox6.Controls.Add(this.label17);
             this.groupBox6.Controls.Add(this.label18);
-            this.groupBox6.Controls.Add(this.pictureBox7);
+            this.groupBox6.Controls.Add(this.picBoxLatte);
             this.groupBox6.Location = new System.Drawing.Point(611, 333);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(292, 158);
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
             // 
-            // label16
+            // lblOutLatte
             // 
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label16.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(167, 97);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(107, 50);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "label16";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOutLatte.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblOutLatte.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutLatte.Location = new System.Drawing.Point(167, 97);
+            this.lblOutLatte.Name = "lblOutLatte";
+            this.lblOutLatte.Size = new System.Drawing.Size(107, 50);
+            this.lblOutLatte.TabIndex = 3;
+            this.lblOutLatte.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label17
             // 
@@ -388,15 +382,15 @@
             this.label18.TabIndex = 1;
             this.label18.Text = "$1.20";
             // 
-            // pictureBox7
+            // picBoxLatte
             // 
-            this.pictureBox7.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Latte;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 16);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(137, 131);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
+            this.picBoxLatte.Image = global::Micola_Cafe_Desktop_Application.Properties.Resources.Latte;
+            this.picBoxLatte.Location = new System.Drawing.Point(3, 16);
+            this.picBoxLatte.Name = "picBoxLatte";
+            this.picBoxLatte.Size = new System.Drawing.Size(137, 131);
+            this.picBoxLatte.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxLatte.TabIndex = 0;
+            this.picBoxLatte.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -411,9 +405,9 @@
             // label19
             // 
             this.label19.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(310, 129);
+            this.label19.Location = new System.Drawing.Point(18, 129);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(292, 37);
+            this.label19.Size = new System.Drawing.Size(885, 37);
             this.label19.TabIndex = 6;
             this.label19.Text = "SELECT COFFEE";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -428,56 +422,55 @@
             this.label20.TabIndex = 7;
             this.label20.Text = "Your Total:";
             // 
-            // label21
+            // lblOutTotal
             // 
-            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label21.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(134, 513);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(766, 52);
-            this.label21.TabIndex = 8;
-            this.label21.Text = "label21";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOutTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblOutTotal.Font = new System.Drawing.Font("Arsenal", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutTotal.Location = new System.Drawing.Point(134, 513);
+            this.lblOutTotal.Name = "lblOutTotal";
+            this.lblOutTotal.Size = new System.Drawing.Size(766, 52);
+            this.lblOutTotal.TabIndex = 8;
+            this.lblOutTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // btnPayNow
             // 
-            this.button1.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(18, 592);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(390, 54);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Pay Now";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPayNow.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPayNow.Location = new System.Drawing.Point(18, 592);
+            this.btnPayNow.Name = "btnPayNow";
+            this.btnPayNow.Size = new System.Drawing.Size(390, 54);
+            this.btnPayNow.TabIndex = 9;
+            this.btnPayNow.Text = "Pay Now";
+            this.btnPayNow.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnReset
             // 
-            this.button2.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(414, 592);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(300, 54);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnReset.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(414, 592);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(300, 54);
+            this.btnReset.TabIndex = 10;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnExit
             // 
-            this.button3.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(720, 592);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(180, 54);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Exit";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnExit.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(720, 592);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(180, 54);
+            this.btnExit.TabIndex = 11;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
             // 
             // frmMicolaCafe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(922, 681);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label21);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnPayNow);
+            this.Controls.Add(this.lblOutTotal);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.groupBox6);
@@ -491,22 +484,22 @@
             this.Text = "Micola Cafe";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxBlack)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCappuccino)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxColumbian)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxEspresso)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxHazelNut)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxLatte)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -517,41 +510,41 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox picBoxBlack;
+        private System.Windows.Forms.Label lblOutBlack;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblOutCappuccino;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox picBoxCappuccino;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblOutColumbian;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox picBoxColumbian;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblOutEspresso;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox picBoxEspresso;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblOutHazelNut;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox picBoxHazelNut;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblOutLatte;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox picBoxLatte;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label lblOutTotal;
+        private System.Windows.Forms.Button btnPayNow;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 
