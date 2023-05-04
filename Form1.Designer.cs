@@ -131,6 +131,7 @@
             this.picBoxBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxBlack.TabIndex = 0;
             this.picBoxBlack.TabStop = false;
+            this.picBoxBlack.Click += new System.EventHandler(this.picBoxBlack_Click);
             // 
             // groupBox2
             // 
@@ -183,6 +184,7 @@
             this.picBoxCappuccino.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxCappuccino.TabIndex = 0;
             this.picBoxCappuccino.TabStop = false;
+            this.picBoxCappuccino.Click += new System.EventHandler(this.picBoxCappuccino_Click);
             // 
             // groupBox3
             // 
@@ -235,6 +237,7 @@
             this.picBoxColumbian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxColumbian.TabIndex = 0;
             this.picBoxColumbian.TabStop = false;
+            this.picBoxColumbian.Click += new System.EventHandler(this.picBoxColumbian_Click);
             // 
             // groupBox4
             // 
@@ -287,6 +290,7 @@
             this.picBoxEspresso.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxEspresso.TabIndex = 0;
             this.picBoxEspresso.TabStop = false;
+            this.picBoxEspresso.Click += new System.EventHandler(this.picBoxEspresso_Click);
             // 
             // groupBox5
             // 
@@ -339,6 +343,7 @@
             this.picBoxHazelNut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxHazelNut.TabIndex = 0;
             this.picBoxHazelNut.TabStop = false;
+            this.picBoxHazelNut.Click += new System.EventHandler(this.picBoxHazelNut_Click);
             // 
             // groupBox6
             // 
@@ -391,6 +396,7 @@
             this.picBoxLatte.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxLatte.TabIndex = 0;
             this.picBoxLatte.TabStop = false;
+            this.picBoxLatte.Click += new System.EventHandler(this.picBoxLatte_Click);
             // 
             // pictureBox1
             // 
@@ -451,6 +457,7 @@
             this.btnReset.TabIndex = 10;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnExit
             // 
@@ -461,6 +468,7 @@
             this.btnExit.TabIndex = 11;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmMicolaCafe
             // 
@@ -482,6 +490,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmMicolaCafe";
             this.Text = "Micola Cafe";
+            this.Load += new System.EventHandler(this.frmMicolaCafe_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxBlack)).EndInit();
