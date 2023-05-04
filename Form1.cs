@@ -16,5 +16,7 @@ namespace Micola_Cafe_Desktop_Application
         {
             InitializeComponent();
         }
+
+        
     }
 }
