@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Micola_Cafe_Desktop_Application
 {
-    public partial class Form1 : Form
+    public partial class frmMicolaCafe : Form
     {
-        public Form1()
+        public frmMicolaCafe()
         {
             InitializeComponent();
         }
