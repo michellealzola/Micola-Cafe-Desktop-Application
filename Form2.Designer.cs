@@ -42,6 +42,7 @@
             this.frmMicolaCafeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.frmPayNowBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.frmMicolaCafeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.programBindingSource)).BeginInit();
@@ -52,7 +53,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(11, 158);
+            this.label2.Location = new System.Drawing.Point(432, 158);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 29);
             this.label2.TabIndex = 2;
@@ -62,7 +63,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 207);
+            this.label3.Location = new System.Drawing.Point(433, 207);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 29);
             this.label3.TabIndex = 3;
@@ -72,7 +73,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(11, 262);
+            this.label4.Location = new System.Drawing.Point(432, 262);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 29);
             this.label4.TabIndex = 4;
@@ -81,25 +82,25 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(113, 153);
+            this.textBox1.Location = new System.Drawing.Point(563, 153);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(785, 34);
+            this.textBox1.Size = new System.Drawing.Size(335, 34);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(113, 202);
+            this.textBox2.Location = new System.Drawing.Point(563, 202);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(785, 34);
+            this.textBox2.Size = new System.Drawing.Size(335, 34);
             this.textBox2.TabIndex = 6;
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(113, 257);
+            this.textBox3.Location = new System.Drawing.Point(563, 257);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(785, 34);
+            this.textBox3.Size = new System.Drawing.Size(335, 34);
             this.textBox3.TabIndex = 7;
             // 
             // pictureBox1
@@ -154,11 +155,20 @@
             // 
             this.frmPayNowBindingSource.DataSource = typeof(Micola_Cafe_Desktop_Application.frmPayNow);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(12, 132);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(394, 238);
+            this.listBox1.TabIndex = 15;
+            // 
             // frmPayNow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 450);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnPayNow);
@@ -194,5 +204,6 @@
         private System.Windows.Forms.BindingSource frmMicolaCafeBindingSource;
         private System.Windows.Forms.BindingSource programBindingSource;
         private System.Windows.Forms.BindingSource frmPayNowBindingSource;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
