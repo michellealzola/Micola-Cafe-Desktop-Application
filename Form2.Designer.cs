@@ -39,10 +39,11 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnPayNow = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.frmMicolaCafeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.frmPayNowBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.frmMicolaCafeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.programBindingSource)).BeginInit();
@@ -136,12 +137,32 @@
             // btnPayNow
             // 
             this.btnPayNow.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPayNow.Location = new System.Drawing.Point(16, 384);
+            this.btnPayNow.Location = new System.Drawing.Point(12, 384);
             this.btnPayNow.Name = "btnPayNow";
-            this.btnPayNow.Size = new System.Drawing.Size(390, 54);
+            this.btnPayNow.Size = new System.Drawing.Size(394, 54);
             this.btnPayNow.TabIndex = 12;
             this.btnPayNow.Text = "Pay";
             this.btnPayNow.UseVisualStyleBackColor = true;
+            // 
+            // listBox1
+            // 
+            this.listBox1.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 29;
+            this.listBox1.Location = new System.Drawing.Point(12, 184);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(394, 178);
+            this.listBox1.TabIndex = 15;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(11, 139);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 29);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Your Orders:";
             // 
             // frmMicolaCafeBindingSource
             // 
@@ -155,19 +176,12 @@
             // 
             this.frmPayNowBindingSource.DataSource = typeof(Micola_Cafe_Desktop_Application.frmPayNow);
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 132);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(394, 238);
-            this.listBox1.TabIndex = 15;
-            // 
             // frmPayNow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
@@ -205,5 +219,6 @@
         private System.Windows.Forms.BindingSource programBindingSource;
         private System.Windows.Forms.BindingSource frmPayNowBindingSource;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
