@@ -12,7 +12,7 @@ namespace Micola_Cafe_Desktop_Application
 {
     public partial class frmPayNow : Form
     {
-        public Dictionary<string, string> CoffeeOrders { get; set; }
+        
         public frmPayNow()
         {
             InitializeComponent();

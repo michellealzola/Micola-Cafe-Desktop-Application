@@ -218,7 +218,7 @@
         private System.Windows.Forms.BindingSource frmMicolaCafeBindingSource;
         private System.Windows.Forms.BindingSource programBindingSource;
         private System.Windows.Forms.BindingSource frmPayNowBindingSource;
-        private System.Windows.Forms.ListBox lboxOrders;
         private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.ListBox lboxOrders;
     }
 }

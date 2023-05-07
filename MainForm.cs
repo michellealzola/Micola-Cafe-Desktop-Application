@@ -68,6 +68,8 @@ namespace Micola_Cafe_Desktop_Application
             lblOutTotal.Text = totalSales.ToString("c");
 
             coffeeOrders["Black"] = blackCount.ToString();
+
+                       
         }
 
         private void picBoxCappuccino_Click(object sender, EventArgs e)
@@ -143,6 +145,7 @@ namespace Micola_Cafe_Desktop_Application
             espressoQty = 20;
             hazelNutQty = 20;
             latteQty = 20;
+            totalSales = 0;
 
             lblOutBlack.Text = blackQty.ToString();
             lblOutCappuccino.Text = cappuccinoQty.ToString();
@@ -154,6 +157,8 @@ namespace Micola_Cafe_Desktop_Application
             lblOutTotal.Text = "";
 
             coffeeOrders.Clear();
+
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -163,8 +168,15 @@ namespace Micola_Cafe_Desktop_Application
 
         private void btnPayNow_Click(object sender, EventArgs e)
         {
-            frmPayNow frmPayNow = new frmPayNow();
-            frmPayNow.CoffeeOrders = coffeeOrders;
+            frmPayNow frmPayNow = new frmPayNow(); 
+
+           
+            foreach(var item in coffeeOrders)
+            {
+                frmPayNow.lboxOrders.Items.Add(item.Key + " " + item.Value);
+            }
+
+            frmPayNow.lboxOrders.Items.Add("Total: " + totalSales.ToString("c"));
             
             frmPayNow.ShowDialog();            
 
