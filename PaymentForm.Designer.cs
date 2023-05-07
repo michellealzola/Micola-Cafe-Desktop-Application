@@ -121,8 +121,9 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(180, 54);
             this.btnExit.TabIndex = 14;
-            this.btnExit.Text = "Exit";
+            this.btnExit.Text = "Exit All";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnReset
             // 
@@ -131,8 +132,9 @@
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(300, 54);
             this.btnReset.TabIndex = 13;
-            this.btnReset.Text = "Reset";
+            this.btnReset.Text = "Go Back to Ordering";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnPayNow
             // 
@@ -143,6 +145,7 @@
             this.btnPayNow.TabIndex = 12;
             this.btnPayNow.Text = "Pay";
             this.btnPayNow.UseVisualStyleBackColor = true;
+            this.btnPayNow.Click += new System.EventHandler(this.btnPayNow_Click);
             // 
             // lboxOrders
             // 

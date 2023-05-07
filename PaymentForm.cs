@@ -18,9 +18,22 @@ namespace Micola_Cafe_Desktop_Application
             InitializeComponent();
         }
 
-        private void frmPayNow_Load(object sender, EventArgs e)
+
+        private void btnPayNow_Click(object sender, EventArgs e)
         {
-           
+            ThankYouForm thanks = new ThankYouForm();
+            thanks.ShowDialog();
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);          
         }
     }
 }
