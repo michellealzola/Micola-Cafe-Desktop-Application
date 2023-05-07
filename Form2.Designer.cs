@@ -32,14 +32,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tboxName = new System.Windows.Forms.TextBox();
+            this.tboxAddress = new System.Windows.Forms.TextBox();
+            this.tboxCardNo = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnPayNow = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lboxOrders = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.frmMicolaCafeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -80,29 +80,29 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Card No:";
             // 
-            // textBox1
+            // tboxName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(563, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(335, 34);
-            this.textBox1.TabIndex = 5;
+            this.tboxName.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tboxName.Location = new System.Drawing.Point(563, 153);
+            this.tboxName.Name = "tboxName";
+            this.tboxName.Size = new System.Drawing.Size(335, 34);
+            this.tboxName.TabIndex = 5;
             // 
-            // textBox2
+            // tboxAddress
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(563, 202);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(335, 34);
-            this.textBox2.TabIndex = 6;
+            this.tboxAddress.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tboxAddress.Location = new System.Drawing.Point(563, 202);
+            this.tboxAddress.Name = "tboxAddress";
+            this.tboxAddress.Size = new System.Drawing.Size(335, 34);
+            this.tboxAddress.TabIndex = 6;
             // 
-            // textBox3
+            // tboxCardNo
             // 
-            this.textBox3.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(563, 257);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(335, 34);
-            this.textBox3.TabIndex = 7;
+            this.tboxCardNo.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tboxCardNo.Location = new System.Drawing.Point(563, 257);
+            this.tboxCardNo.Name = "tboxCardNo";
+            this.tboxCardNo.Size = new System.Drawing.Size(335, 34);
+            this.tboxCardNo.TabIndex = 7;
             // 
             // pictureBox1
             // 
@@ -144,15 +144,15 @@
             this.btnPayNow.Text = "Pay";
             this.btnPayNow.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // lboxOrders
             // 
-            this.listBox1.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 29;
-            this.listBox1.Location = new System.Drawing.Point(12, 184);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(394, 178);
-            this.listBox1.TabIndex = 15;
+            this.lboxOrders.Font = new System.Drawing.Font("Arsenal", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lboxOrders.FormattingEnabled = true;
+            this.lboxOrders.ItemHeight = 29;
+            this.lboxOrders.Location = new System.Drawing.Point(12, 184);
+            this.lboxOrders.Name = "lboxOrders";
+            this.lboxOrders.Size = new System.Drawing.Size(394, 178);
+            this.lboxOrders.TabIndex = 15;
             // 
             // label1
             // 
@@ -182,14 +182,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lboxOrders);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnPayNow);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tboxCardNo);
+            this.Controls.Add(this.tboxAddress);
+            this.Controls.Add(this.tboxName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -208,9 +208,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tboxName;
+        private System.Windows.Forms.TextBox tboxAddress;
+        private System.Windows.Forms.TextBox tboxCardNo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnReset;
@@ -218,7 +218,7 @@
         private System.Windows.Forms.BindingSource frmMicolaCafeBindingSource;
         private System.Windows.Forms.BindingSource programBindingSource;
         private System.Windows.Forms.BindingSource frmPayNowBindingSource;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lboxOrders;
         private System.Windows.Forms.Label label1;
     }
 }
