@@ -165,7 +165,8 @@ namespace Micola_Cafe_Desktop_Application
         {
             frmPayNow frmPayNow = new frmPayNow();
             frmPayNow.CoffeeOrders = coffeeOrders;
-            frmPayNow.Show();            
+            
+            frmPayNow.ShowDialog();            
 
         }
     }
